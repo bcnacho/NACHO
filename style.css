@@ -1,16 +1,16 @@
 
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f1ec;
-    color: #3a2f2a;
+    background: #fff8e6;
+    color: #333;
 }
 header {
     position: sticky;
     top: 0;
-    background: #e8dfd3;
-    border-bottom: 2px solid #bca187;
+    background: #fff1cc;
+    border-bottom: 2px solid #ffd580;
     z-index: 1000;
 }
 nav ul {
@@ -19,7 +19,7 @@ nav ul {
     justify-content: center;
     padding: 1rem;
     margin: 0;
-    background: #e8dfd3;
+    background: #fff1cc;
 }
 nav ul li {
     margin: 0 1rem;
@@ -54,44 +54,45 @@ p {
     display: inline-block;
     margin: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #9e6c3c;
+    background-color: #f7b733;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
     cursor: pointer;
 }
 .btn.secondary {
     background-color: transparent;
-    color: #9e6c3c;
-    border: 2px solid #9e6c3c;
+    color: #f7b733;
+    border: 2px solid #f7b733;
 }
 .card {
     background: #ffffff;
-    border: 1px solid #d4c1ac;
-    border-radius: 6px;
-    box-shadow: 2px 2px 6px rgba(130, 100, 70, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
+    text-align: left;
 }
 form input, form textarea {
-    width: 80%;
+    width: 90%;
     max-width: 400px;
     padding: 0.75rem;
     margin: 0.5rem 0;
-    border: 1px solid #bca187;
-    border-radius: 4px;
-    background-color: #fdfaf7;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fffefb;
 }
 form button {
     margin-top: 1rem;
 }
 img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     margin-top: 1rem;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 @media (max-width: 600px) {
     nav ul {
