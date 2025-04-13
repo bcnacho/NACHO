@@ -1,0 +1,9 @@
+/* Basic styles for layout and sticky nav */
+body { font-family: sans-serif; margin: 0; padding: 0; }
+header { position: sticky; top: 0; background: white; border-bottom: 1px solid #ccc; z-index: 999; }
+nav ul { list-style: none; display: flex; justify-content: center; padding: 1rem; margin: 0; }
+nav ul li { margin: 0 1rem; }
+nav ul li a { text-decoration: none; color: #333; font-weight: bold; }
+section { padding: 4rem 2rem; text-align: center; }
+.btn { margin: 1rem; padding: 0.75rem 1.5rem; background-color: #e07b00; color: white; border: none; border-radius: 5px; cursor: pointer; }
+img { max-width: 100%; height: auto; }
